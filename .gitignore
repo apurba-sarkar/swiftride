@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-
+backend/.env
 # Expo
 .expo/
 dist/
@@ -35,6 +35,7 @@ yarn-error.*
 *.tsbuildinfo
 
 ./backend/node_modules
-./backend/.env
+./backend/.env*.local
 
-.device/node_modules
+./device/node_modules
+.env
